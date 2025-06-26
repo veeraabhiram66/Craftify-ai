@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "filesystem-mcp-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/server/build/index.js"]
+    }
+  }
+}

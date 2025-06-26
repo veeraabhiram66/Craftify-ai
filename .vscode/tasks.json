@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build MCP Server",
+      "type": "shell",
+      "command": "npm run build",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/server"
+      },
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "Start MCP Server",
+      "type": "shell",
+      "command": "npm start",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/server"
+      },
+      "isBackground": true
+    },
+    {
+      "label": "Dev Client",
+      "type": "shell",
+      "command": "npm run dev",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/client"
+      },
+      "isBackground": true
+    }
+  ]
+}
