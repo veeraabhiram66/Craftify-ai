@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Craftify AI
 
 Craftify AI is a modern, agent-style file system manager web app. It allows you to upload a folder, manage its files using natural language commands, and interact with a Model Context Protocol (MCP) server for all file operations. The app is built with Vite, React, and TypeScript, and features a clean, professional UI.
@@ -84,5 +83,3 @@ MIT
 
 Craftify AI — Modern agent-style file management, powered by MCP.
 =======
-# Craftify-ai
->>>>>>> dfd60add22fddb741af3d4253445b590a867e907
